@@ -160,7 +160,8 @@ class ProductItemDetails extends Component {
                 data-testid="minus"
               >
                 <BsDashSquare className="quantity-controller-icon" />
-              </button>
+              <IoMdClose aria-label="close" />
+                  </button>
               <p className="quantity">{quantity}</p>
               <button
                 type="button"
@@ -169,6 +170,7 @@ class ProductItemDetails extends Component {
                 data-testid="plus"
               >
                 <BsPlusSquare className="quantity-controller-icon" />
+                  <IoMdClose aria-label="close" />
               </button>
             </div>
             <button type="button" className="button add-to-cart-btn">
